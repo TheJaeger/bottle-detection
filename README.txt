@@ -18,8 +18,8 @@ c.)	The image was cropped at each of the three coordinates and the image was
 	on the level of liquid in each bottle, and hence, was reassigned a value of 1.
 	The other quantization were assigned a value of 0
 d.)	Using these values, the area of the binary image of each bottle was determined
-using regionprops(I, ‘Area’). The average area of the level of liquid in each bottle
-was also determined.
+	using regionprops(I, ‘Area’). The average area of the level of liquid in each bottle
+	was also determined.
 e.)	A loop function was used that compared the level of liquid in each bottle and
 	identified the bottle with area less than the average. The results of this method
 	of detection are shown below.
